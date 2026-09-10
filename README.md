@@ -15,3 +15,9 @@ bash
 
 
 python3 reverse\_dns.py [path/to/capture.pcap]
+
+## Development Setup
+To ensure dependency isolation, use the provided virtual environment:
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt

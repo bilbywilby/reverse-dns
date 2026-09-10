@@ -1,14 +1,28 @@
 # Bytecode
 __pycache__/
 *.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
 
 # Captures - CRITICAL: Never commit raw PCAPs
 *.pcap
 *.pcapng
-shared/
 captures/
+shared/
 
-# Environment
-.venv/
-env/
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment files
 .env
+.env.local
