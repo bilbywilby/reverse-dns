@@ -21,3 +21,4 @@ To ensure dependency isolation, use the provided virtual environment:
 ```bash
 source .venv/bin/activate
 pip install -r requirements.txt
+# CI Trigger
