@@ -1,0 +1,14 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Captures - CRITICAL: Never commit raw PCAPs
+*.pcap
+*.pcapng
+shared/
+captures/
+
+# Environment
+.venv/
+env/
+.env
