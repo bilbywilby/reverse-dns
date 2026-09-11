@@ -1,5 +1,6 @@
 #!/bin/bash
 # Smoke test for reverse-dns analyzer
+mkdir -p tests/fixtures
 echo "--- Running Smoke Test ---"
 python3 tests/gen_fixture.py
 

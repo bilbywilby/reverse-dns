@@ -1,7 +1,9 @@
+import os
 #!/usr/bin/env python3
 from scapy.all import wrpcap, Ether, IP, UDP, TCP
 
 def generate():
+    os.makedirs("tests/fixtures", exist_ok=True)
     # Packet 1: Standard Ethernet -> IPv4 -> UDP (8.8.8.8)
     p1 = Ether()/IP(dst="8.8.8.8")/UDP(dport=53)
     # Packet 2: Standard Ethernet -> IPv4 -> TCP (1.1.1.1)
