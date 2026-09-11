@@ -14,9 +14,6 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - False negative in protocol aggregation validation regex.
 
-## v0.2.1 (2026-09-11)
-- Fixed: CI failure caused by missing tests/fixtures directory on fresh clones.
-  Directory is now created programmatically at runtime (see 6e2ea8d).
 
 ## [0.2.1] - 2026-09-11
 ### Fixed
